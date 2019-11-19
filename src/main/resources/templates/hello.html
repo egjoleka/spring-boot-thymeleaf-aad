@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="'Hello, ' + ${principal} + '!'"></title>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body>
+<h2 class="hello-title" th:text="'X-MS-TOKEN-AAD-ID-TOKEN, ' + ${id_token}"></h2>
+<h2 class="hello-title" th:text="'X-MS-TOKEN-AAD-ACCESS-TOKEN, ' + ${access_token}"></h2>
+<h2 class="hello-title" th:text="'X-MS-TOKEN-AAD-EXPIRES-ON, ' + ${expiration}"></h2>
+<h2 class="hello-title" th:text="'X-MS-TOKEN-AAD-REFRESH-TOKEN, ' + ${refresh_token}"></h2>
+
+<h2 class="hello-title" th:text="'path, ' + ${path}"></h2>
+<h2 class="hello-title" th:text="'principal, ' + ${principal}"></h2>
+<h2 class="hello-title" th:text="'getAuthType, ' + ${getAuthType}"></h2>
+<h2 class="hello-title" th:text="'getContextPath, ' + ${getContextPath}"></h2>
+<h2 class="hello-title" th:text="'getCookies, ' + ${getCookies}"></h2>
+<h2 class="hello-title" th:text="'getRemoteUser, ' + ${getRemoteUser}"></h2>
+<h2 class="hello-title" th:text="'getRequestedSessionId, ' + ${getRequestedSessionId}"></h2>
+<h2 class="hello-title" th:text="'getSession, ' + ${getSession}"></h2>
+<h2 class="hello-title" th:text="'getTrailerFields, ' + ${getTrailerFields}"></h2>
+<script src="/js/main.js"></script>
+</body>
+</html>
