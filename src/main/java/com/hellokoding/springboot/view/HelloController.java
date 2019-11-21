@@ -36,7 +36,6 @@ public class HelloController {
         model.addAttribute("getRemoteUser", httpServletRequest.getRemoteUser());
         model.addAttribute("getRequestedSessionId", httpServletRequest.getRequestedSessionId());
         model.addAttribute("getSession", httpServletRequest.getSession().getAttributeNames());
-        model.addAttribute("getTrailerFields", httpServletRequest.getTrailerFields());
         return "hello";
     }
 }
