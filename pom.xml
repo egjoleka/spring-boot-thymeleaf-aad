@@ -38,7 +38,8 @@
       <artifactId>spring-boot-starter-thymeleaf</artifactId> 
     </dependency> 
   </dependencies>  
-  <build> 
+  <build>
+    <finalName>spring-easy-auth</finalName>
     <plugins> 
       <plugin> 
         <groupId>com.microsoft.azure</groupId>  
