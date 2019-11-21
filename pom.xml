@@ -15,23 +15,11 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
   </properties>  
   <artifactId>spring-boot-backend-sample</artifactId>  
-  <packaging>war</packaging>  
+  <packaging>jar</packaging>
   <dependencies> 
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
-      <artifactId>spring-boot-starter-web</artifactId> 
-	   <exclusions>
-            <exclusion>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-tomcat</artifactId>
-            </exclusion>
-        </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
-      <scope>provided</scope>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
@@ -54,7 +42,6 @@
           <runtime>
             <os>linux</os>
             <javaVersion>jre8</javaVersion>
-            <webContainer>TOMCAT 8.5</webContainer>
           </runtime>
             <!-- Begin of App Settings  -->
             <appSettings>
@@ -69,7 +56,7 @@
               <resource>
                 <directory>${project.basedir}/target</directory>
                 <includes>
-                  <include>*.war</include>
+                  <include>*.jar</include>
                 </includes>
               </resource>
             </resources>
