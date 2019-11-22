@@ -10,15 +10,15 @@
 	<proxies></proxies>
 
 	<servers>
-   <server>
-     <id>azure-auth</id>
-      <configuration>
-         <client>5c3547cf-8f0a-4b87-b882-672194373029</client>
-         <tenant>dd6b0251-24af-40a4-96d2-8a748c2557b2</tenant>
-         <key>2b958612-dc25-4c1e-8366-ae21016a294b</key>
-         <environment>AZURE</environment>
-      </configuration>
-   </server>
+		<server>
+			<id>azure-auth</id>
+			<configuration>
+				<client>f18d93e9-f8be-4596-9af8-275b4f671527</client>
+				<tenant>dd6b0251-24af-40a4-96d2-8a748c2557b2</tenant>
+				<key>b58b5680-79c5-4dea-a430-a2bd7f23af73</key>
+				<environment>AZURE</environment>
+			</configuration>
+		</server>
 	</servers>
 
 	<mirrors>
